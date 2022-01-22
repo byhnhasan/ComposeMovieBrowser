@@ -1,0 +1,17 @@
+ext.versions = [
+
+        //Compose
+        composeVersion          :'1.0.1',
+
+        //Retrofit
+        retrofitVersion         :'2.9.0',
+        okhttp3Version          :'3.11.0',
+
+        //Hilt
+        hiltVersion             :'2.38.1',
+        hiltComposeNavigation   : '1.0.0-alpha03',
+
+        //Coroutines & Flow
+        coroutinesVersion       :'1.5.2'
+
+]
