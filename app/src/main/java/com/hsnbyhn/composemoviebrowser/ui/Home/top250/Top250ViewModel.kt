@@ -1,4 +1,4 @@
-package com.hsnbyhn.composemoviebrowser.ui.top250
+package com.hsnbyhn.composemoviebrowser.ui.Home.top250
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State

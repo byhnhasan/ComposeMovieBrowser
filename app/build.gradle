@@ -85,4 +85,7 @@ dependencies {
 
     //Coroutines & Flows
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutinesVersion"
+
+    //Navigation
+    implementation "androidx.navigation:navigation-compose:$versions.navigationVersion"
 }
