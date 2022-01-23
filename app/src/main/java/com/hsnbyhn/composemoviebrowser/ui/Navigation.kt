@@ -4,7 +4,9 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.google.accompanist.pager.ExperimentalPagerApi
 import com.hsnbyhn.composemoviebrowser.ui.bottomnavigation.BottomNavigationItem
+import com.hsnbyhn.composemoviebrowser.ui.home.HomeScreen
 import com.hsnbyhn.composemoviebrowser.ui.profile.ProfileScreen
 import com.hsnbyhn.composemoviebrowser.ui.search.SearchScreen
 
@@ -12,6 +14,7 @@ import com.hsnbyhn.composemoviebrowser.ui.search.SearchScreen
  * Created by hasanbayhan on 22.01.2022
  **/
 
+@ExperimentalPagerApi
 @Composable
 fun Navigation(navHostController: NavHostController) {
 

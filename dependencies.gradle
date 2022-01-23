@@ -15,6 +15,8 @@ ext.versions = [
         coroutinesVersion       :'1.5.2',
 
         //Navigation
-        navigationVersion       :'2.4.0-rc01'
+        navigationVersion       :'2.4.0-rc01',
 
+        //Accompanist
+        pagerVersion            :'0.20.0'
 ]

@@ -88,4 +88,8 @@ dependencies {
 
     //Navigation
     implementation "androidx.navigation:navigation-compose:$versions.navigationVersion"
+
+    //Accompanist
+    implementation "com.google.accompanist:accompanist-pager:$versions.pagerVersion"
+    implementation "com.google.accompanist:accompanist-pager-indicators:$versions.pagerVersion"
 }

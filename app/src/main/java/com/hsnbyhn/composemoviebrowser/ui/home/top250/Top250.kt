@@ -1,4 +1,4 @@
-package com.hsnbyhn.composemoviebrowser.ui.Home.top250
+package com.hsnbyhn.composemoviebrowser.ui.home.top250
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import com.hsnbyhn.composemoviebrowser.data.model.Movie
 
 /**
@@ -15,7 +16,7 @@ import com.hsnbyhn.composemoviebrowser.data.model.Movie
  **/
 
 @Composable
-fun Top250Screen(viewModel: Top250ViewModel) {
+fun Top250(viewModel: Top250ViewModel) {
 
     val top250Movies: State<List<Movie>?> = viewModel.top250Movies
 
@@ -24,7 +25,7 @@ fun Top250Screen(viewModel: Top250ViewModel) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-            Text(text = if (top250Movies.value.isNullOrEmpty()) "loading" else "Success")
+            Text(text = if (top250Movies.value.isNullOrEmpty()) "loading" else "Success", color = Color.White)
     }
 
 }
